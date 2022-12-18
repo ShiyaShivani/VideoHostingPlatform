@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Upload Page</title>
+    <link rel="stylesheet" href="UPLOAD.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="menu">
+                <img class="m_icon"src="menu_FILL0_wght400_GRAD0_opsz48.png">
+            </div>
+            <div class="vediotube">
+                <img class="vicon" src="logo.jpg">
+                <div class="l1">
+                <b>SKS Streams</b>
+                </div>
+            </div>
+            <div class="search">
+                <input class="s_child" type="text" placeholder="Search" name="search" required>
+                <!-- <img class="S_icon" src="search_FILL0_wght400_GRAD0_opsz48.png"> -->
+
+            </div>
+            <div class="down_icon">
+                <img class="d_icon" src="file_download_FILL0_wght400_GRAD0_opsz48.png" />
+            </div>
+            <div class="propic">
+                <img class="p_pic"src="account_circle_FILL0_wght400_GRAD0_opsz48.png" />
+            </div>
+        </div>
+        <div class="main">
+            <div class="file">Your file</div>
+            <div class="choose">
+                <button class= "c_btn"type="button" class="Choose">Choose file</button>
+                <div class="info">
+                    <input class="info_child"type="text"  name="v_name">
+                </div>
+            </div>
+            <div class="details">
+                <div class="name">
+                <form action="postmethod-12.php" method="post">
+                <input class="name_child" type="text" placeholder="Title of video" name="title-1" required>
+                <div class="info_of"></div>
+                <input class="name_child2" rows="10 "cols="10"placeholder="Description" name="description" required>
+                </div> 
+                </div>
+                <div class="btn">
+                    <button class="upload" type="submit" class="up_load">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
+
+
+<!-- <form action="postmethod-11.php" method="post">
+    <input type="text" placeholder="First name" name="name-1" required> -->

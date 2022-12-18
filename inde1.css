@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.col-md-4{
+    
+    flex-direction: column;
+    
+}
+/* source{
+    display: flex;
+    flex-direction: row;
+} */
+/* .main{
+    display: flex;
+}
+.row{
+    /* display: flex; */
+/* } */
+/* #fast{
+    display: flex;
+} */

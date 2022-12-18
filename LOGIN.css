@@ -1,0 +1,112 @@
+body{
+    /* background-image: url("sn.jpg") ; */
+    background: linear-gradient(0deg, rgba(85, 80, 80, 0.54), rgba(11, 11, 11, 0.333)), url(skstream.jpg);
+  
+    /* Full height */
+    height: 100vh;
+    /* Center and scale the image nicely */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    /* background-color: transparent; */
+    width:602px;
+    height:600px;
+    border: 2px solid white;
+    display:flex;
+    flex-direction: column;
+    margin-left: 468px;
+    margin-top: 60px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.15);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.2px);
+-webkit-backdrop-filter: blur(6.2px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding-left: 45px;
+    padding-top:50px ;
+}
+.icon{
+    width: 29px;
+    /* height: 10px; */
+}
+.signup{
+    font-size: 53px;
+    padding-left: 40px;
+}
+.p1{
+   padding-left: 40px;
+}
+.main{
+    /* border: 3px solid blue;; */
+    display: flex;
+    flex-direction: column;
+}
+/* .profile{
+
+} */
+/* .image{
+    width:
+} */
+.form1{
+    width: 593px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 20px; 
+    padding-right: 30px;
+}
+input{
+    width: 500px;
+    padding: 12px;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    /* border-radius: 10%; */
+    background-color: transparent;
+    color:white;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:white;
+    opacity: 1; /* Firefox */
+    font-size: 15px;
+  }
+/* input:hover{
+    
+} */
+.submit{
+    padding-top:20px;
+}
+button{
+    width: 110px;
+    height: 42px;
+    /* color: #fff; */
+    background-color: #e91111;
+}
+button:hover{
+background-color: rgba(255, 0, 0, 0.374);
+}
+.footer{
+    padding-top: 25px;
+}
+a{
+    color:rgb(104, 14, 14);
+    text-decoration: none;
+}
+button{
+    color:white;
+}
